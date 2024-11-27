@@ -128,7 +128,7 @@ const Home = () => {
      
             {/* Título y botones debajo del carrusel */}
 
-            <h2 className="social-title">Seguinos en las redes</h2>
+            <h2 className="social-title">SEGUINOS EN REDES:</h2>
       <div className="custom-buttons-container">
         <div className="custom-button">
           <img src={instagramIcon} alt="Instagram" className="custom-button-icon" />
