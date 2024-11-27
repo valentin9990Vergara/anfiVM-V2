@@ -6,6 +6,8 @@ import img3 from '../assets/images/img3.jpg';
 import instagramIcon from '../assets/icons/icon1.png';
 import facebookIcon from '../assets/icons/icon2.png';
 import youtubeIcon from '../assets/icons/icon3.png';
+import img4 from '../assets/images/news1.jpg';
+import img5 from '../assets/images/news2.jpg';
 
 const Home = () => {
     const videos = [
@@ -143,6 +145,29 @@ const Home = () => {
           <div className="custom-button-text">Youtube</div>
         </div>
       </div>
+
+            <div className="news-section">
+            <h2 className="news-title">Noticias</h2>
+            <div className="news-container">
+                <div className="news-item">
+                    <img className="news-image" src={img4} alt="Noticia 1" />
+                    <h3>Noche de los Museos en el Museo del Anfi</h3>
+                    <p>Desde las 20:30hs te invitamos a recorrer el museo que contará con la intervención musical de @kallpa.folk, artistas de la última edición del Festival de Peñas.
+
+                    En el Museo del Anfi podrás conocer y descubrir la historia del Anfiteatro y el Festival.
+                    </p>
+                </div>
+                <div className="news-item">
+                    <img className="news-image" src={img5} alt="Noticia 2" />
+                    <h3>¡No te pierdas el Circo Rodas en el Anfi!</h3>
+                    <p>Magia, acrobacias, payasos, malabares, el temido globo de la muerte y más de 50 artistas en escena.
+                    🎟️ Entradas en vente en boleterías del Anfi, de 10 a 22 hs. </p>
+                </div>
+            </div>
+        </div>
+
+
+
 
         </>
     );
