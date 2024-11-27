@@ -1,0 +1,173 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea todo a la izquierda */
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.753); /* Fondo blanco con algo de transparencia */
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 2; /* Asegura que esté sobre el video */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px; /* Espacio entre el logo y los enlaces */
+}
+
+.navbar-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #0f4c7a;
+    transition: color 0.3s;
+}
+
+.navbar-links li:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+.navbar-logo-section:hover  {
+    opacity: 0.8;
+    transform: scale(1.1); /* Le da un pequeño efecto de aumento al pasar el mouse */
+}
+/* Contenedor de botones */
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre los botones */
+    margin-left: auto; /* Empuja los botones hacia la derecha */
+    margin-right: 40px; /* Ajusta su posición hacia la izquierda */
+}
+
+/* Botón "Calendario" */
+.navbar-calendar-button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #47b0c3, #457ee1);
+    border-radius: 10px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.navbar-calendar-button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 #056ee666;
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+/* Botón "En Vivo" *
+/* From Uiverse.io by joe-watson-sbf */ 
+.navbar-live-button {
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #cd0a0a;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .navbar-live-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #dc1313;
+    transition: 0.5s ease;
+  }
+  
+  .navbar-live-button:hover {
+    color: #f7f0ef;
+    transition-delay: 0.5s;
+  }
+  
+  .navbar-live-button:hover::before {
+    width: 100%;
+  }
+  
+  .navbar-live-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #f00606;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .navbar-live-button:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+    .navbar-calendar-button,
+    .navbar-live-button {
+        font-size: 14px;
+        padding: 0.5em 1.5em;
+    }
+
+    .navbar-buttons {
+        margin-right: 10px; /* Ajusta su posición en pantallas pequeñas */
+    }
+
+    .navbar-links {
+        gap: 10px;
+    }
+}
+
+
