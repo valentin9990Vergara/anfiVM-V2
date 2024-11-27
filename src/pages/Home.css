@@ -291,3 +291,53 @@
         padding: 0.3rem 0.6rem;
     }
 }
+
+.custom-buttons-container {
+    display: flex;
+    justify-content: center;  /* Centra los botones horizontalmente */
+    gap: 2rem;  /* Espaciado entre los botones */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0f1516;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.custom-button {
+    display: flex;
+    flex-direction: column;  /* Alinea el ícono y el texto verticalmente */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 119, 178, 0.6);  /* Fondo oscuro */
+    padding: 1.5rem;
+    border-radius: 40px;  /* Bordes redondeados */
+    width: 140px;  /* Ancho del bloque */
+    height: 140px;  /* Alto del bloque */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(220, 87, 87, 0.3);  /* Sombra */
+}
+
+.custom-button:hover {
+    transform: scale(1.08);  /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);  /* Efecto de sombra más fuerte */
+}
+
+.custom-button-icon {
+    font-size: 2rem;  /* Tamaño del ícono */
+    margin-bottom: 0.5rem;
+    color: #00aced;  /* Color del ícono */
+}
+
+.custom-button-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;  /* Formato del texto */
+}
