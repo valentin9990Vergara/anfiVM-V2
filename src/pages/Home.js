@@ -8,6 +8,7 @@ import facebookIcon from '../assets/icons/icon2.png';
 import youtubeIcon from '../assets/icons/icon3.png';
 import img4 from '../assets/images/news1.jpg';
 import img5 from '../assets/images/news2.jpg';
+import img6 from '../assets/images/news3.jpg';
 
 const Home = () => {
     const videos = [
@@ -146,6 +147,7 @@ const Home = () => {
         </div>
       </div>
 
+
             <div className="news-section">
             <h2 className="news-title">Noticias</h2>
             <div className="news-container">
@@ -162,6 +164,14 @@ const Home = () => {
                     <h3>¡No te pierdas el Circo Rodas en el Anfi!</h3>
                     <p>Magia, acrobacias, payasos, malabares, el temido globo de la muerte y más de 50 artistas en escena.
                     🎟️ Entradas en vente en boleterías del Anfi, de 10 a 22 hs. </p>
+                </div>
+
+                <div className="news-item">
+                    <img className="news-image" src={img6} alt="Noticia 3" />
+                    <h3>Destino San Javier regresa al Anfi</h3>
+                    <p>
+                    Te invitamos a ser parte de esta gran fiesta para cantar y celebrar a la ciudad. Además van a estar: Solcito, Arrasa como Topadora y Shalaku.
+                    </p>
                 </div>
             </div>
         </div>
