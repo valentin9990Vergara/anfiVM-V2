@@ -10,7 +10,7 @@
     justify-content: flex-start;
     color: #fff;
     padding-left: 2rem;
-    padding-top: 5rem;
+    padding-top: -8rem;
 }
 
 /* Video Background */
@@ -29,13 +29,13 @@
 .home-content {
     z-index: 1;
     position: relative;
-    max-width: 900px;
+    max-width: 2000px;
     padding: 0.9rem;
     background-color: rgba(32, 32, 32, 0.755);
     border: 2px solid #54b4f07c;
     border-radius: 50px;
     color: #ffffff;
-    margin-top: 0.5rem;
+    margin-top: 7rem;
     margin-left: 0.1rem;
     font-size: 0.9rem;
 }
@@ -43,7 +43,8 @@
 /* Home Description */
 .home-description {
     margin-top: 1rem;
-    font-size: 0.8rem;
+    margin-left: 40px;
+    font-size: 1rem;
     color: #ffffff;
 }
 
@@ -71,7 +72,7 @@
     overflow: hidden;
     transition: transform 0.3s ease;
     margin: 0 10px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .button:hover {
@@ -123,7 +124,7 @@
 /* Botones de Carrusel */
 .carousel-controls {
     position: absolute;
-    bottom: 8rem;
+    bottom: 1rem;
     right: 5rem;
     display: flex;
     gap: 0.8rem;
@@ -149,7 +150,7 @@
 /* Botón de Pausa */
 .pause-btn {
     position: absolute;
-    bottom: 8rem;
+    bottom: 1rem;
     left: 4rem;
     background-color: rgba(0, 0, 0, 0.288);
     color: #ffffff;
@@ -169,15 +170,15 @@
 /* Thumbnail Controls */
 .thumbnail-controls {
     position: absolute;
-    bottom: 12rem; /* Ajusta la posición de las imágenes encima de las flechas del carrusel */
+    bottom: 4rem; /* Incrementa este valor para mover hacia abajo */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     gap: 1rem;
     z-index: 2;
-    margin-left: 30px;
-    
+    margin-left: 20px;
 }
+
 
 .thumbnail-controls img {
     width: 90px; /* Ajusta el tamaño de las miniaturas */
@@ -196,10 +197,6 @@
     transform: scale(1.1);
     border-color: #0f49f5;
 }
-
-
-
-
 
 /* Media Queries for Responsiveness */
 
@@ -308,7 +305,7 @@
     color: #000000;
     margin-bottom: 1rem;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: 2rem;
     font-family: "Russo One", sans-serif;
     text-shadow: 
     10px 10px 5px #6a071375,  /* Primera sombra (clara) */
@@ -320,7 +317,7 @@
     flex-direction: column;  /* Alinea el ícono y el texto verticalmente */
     align-items: center;
     justify-content: center;
-    background-color: rgba(16, 119, 178, 0.6);  /* Fondo oscuro */
+    background-color: rgba(225, 86, 192, 0.6);  /* Fondo oscuro */
     padding: 1.5rem;
     border-radius: 40px;  /* Bordes redondeados */
     width: 140px;  /* Ancho del bloque */
@@ -350,14 +347,15 @@
 }
 
 .news-section {
-    width: 101vw; /* Asegura que la sección ocupe todo el ancho de la ventana */
-    margin: 0; /* Elimina cualquier margen que pueda afectar el ancho */
+    width: 102.6%; /* Asegura que la sección ocupe todo el ancho de la ventana */
+    margin: 12; /* Elimina cualquier margen que pueda afectar el ancho */
     background-image: url('../assets/images/news-background.jpg');  /* Ruta de la imagen */
     background-size: cover;  /* Hace que la imagen cubra todo el área del contenedor */
     background-position: center;  /* Centra la imagen dentro del contenedor */
     background-repeat: no-repeat;  /* Evita que la imagen se repita */
     padding: 1rem 0;  /* Espaciado alrededor de la sección */
     color: #fff;  /* Cambia el color del texto para que sea visible sobre el fondo */
+    
 }
 
 
@@ -366,7 +364,7 @@
     font-weight: bold;
     color: #fdfdfd;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-family: "Russo One", sans-serif;
 }
 

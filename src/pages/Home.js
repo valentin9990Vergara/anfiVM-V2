@@ -127,25 +127,6 @@ const Home = () => {
                 </button>
             </div>
             
-     
-     
-            {/* Título y botones debajo del carrusel */}
-
-            <h2 className="social-title">SEGUINOS EN REDES:</h2>
-      <div className="custom-buttons-container">
-        <div className="custom-button">
-          <img src={instagramIcon} alt="Instagram" className="custom-button-icon" />
-          <div className="custom-button-text">Instagram</div>
-        </div>
-        <div className="custom-button">
-          <img src={facebookIcon} alt="Facebook" className="custom-button-icon" />
-          <div className="custom-button-text">Facebook</div>
-        </div>
-        <div className="custom-button">
-          <img src={youtubeIcon} alt="Youtube" className="custom-button-icon" />
-          <div className="custom-button-text">Youtube</div>
-        </div>
-      </div>
 
 
             <div className="news-section">
@@ -176,7 +157,23 @@ const Home = () => {
             </div>
         </div>
 
+    {/* Título y botones debajo del carrusel */}
 
+    <h2 className="social-title">SEGUINOS EN REDES:</h2>
+      <div className="custom-buttons-container">
+        <div className="custom-button">
+          <img src={instagramIcon} alt="Instagram" className="custom-button-icon" />
+          <div className="custom-button-text">Instagram</div>
+        </div>
+        <div className="custom-button">
+          <img src={facebookIcon} alt="Facebook" className="custom-button-icon" />
+          <div className="custom-button-text">Facebook</div>
+        </div>
+        <div className="custom-button">
+          <img src={youtubeIcon} alt="Youtube" className="custom-button-icon" />
+          <div className="custom-button-text">Youtube</div>
+        </div>
+      </div>
 
 
         </>
