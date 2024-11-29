@@ -1,3 +1,18 @@
+/* Estilo global */
+html, body {
+  margin: 0; /* Eliminar márgenes por defecto */
+  padding: 0; /* Eliminar padding por defecto */
+  box-sizing: border-box; /* Asegura que el ancho incluye padding y bordes */
+  width: 100%; /* Asegura que no haya desbordamiento horizontal */
+  overflow-x: hidden; /* Oculta la barra horizontal */
+  height: 100%; /* Asegura que ocupe toda la altura */
+}
+
+* {
+  box-sizing: inherit; /* Aplica box-sizing a todos los elementos */
+}
+
+
 .App {
   text-align: center;
 }
