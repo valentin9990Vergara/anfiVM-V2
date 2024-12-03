@@ -28,7 +28,7 @@ function Navbar() {
                 <span className="navbar-title">ANFI Villa María</span>
             </div>
             <ul className="navbar-links">
-                <li onClick={() => navigate('/about')}>Sobre Nosotros</li>
+                <li onClick={() => navigate('/festivalpeñas')}>Festival de peñas</li>
                 <li onClick={() => navigate('/services')}>Servicios</li>
                 <li onClick={() => navigate('/contact')}>Contacto</li>
             </ul>

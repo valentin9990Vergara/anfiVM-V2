@@ -1,9 +1,11 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'; // Ajusta la ruta si es necesario
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FestivalPeñas from './pages/FestivalPeñas';
+
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* Agrega otras rutas aquí si es necesario */}
+                <Route path="/festivalpeñas" element={<FestivalPeñas />} />
+                
             </Routes>
             <Footer />
             

@@ -1,0 +1,21 @@
+.festival-peñas {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 100vh; /* Asegura que ocupe toda la pantalla */
+}
+
+.festival-header {
+    margin-bottom: 2rem;
+    background: #004aad; /* Color principal para el header */
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.festival-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
