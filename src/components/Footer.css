@@ -1,6 +1,6 @@
 .footer {
     background-color: #9c9cf22a; /* Color de fondo del footer */
-    color: #9388e0; /* Color del texto */
+    color: #6e5dd8; /* Color del texto */
     text-align: center;
     padding: 1rem 2;
     position: relative;
@@ -26,7 +26,7 @@
 }
 
 .footer-links a {
-    color: #968cd8;
+    color: #6e5dd8;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
