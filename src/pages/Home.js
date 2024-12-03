@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Home.css';
+import Footer from '../components/Footer'; 
 import img1 from '../assets/images/img1.jpg';
 import img2 from '../assets/images/img2.jpg';
 import img3 from '../assets/images/img3.jpg';
@@ -173,8 +174,9 @@ const Home = () => {
           <img src={youtubeIcon} alt="Youtube" className="custom-button-icon" />
           <div className="custom-button-text">Youtube</div>
         </div>
+         
       </div>
-
+      <Footer />
 
         </>
     );

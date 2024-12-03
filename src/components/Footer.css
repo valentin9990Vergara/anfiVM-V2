@@ -7,7 +7,7 @@
     bottom: 0;
     max-width: 100%; /* No exceder el ancho de la pantalla */
     overflow-x: hidden;
-    
+    margin-top: auto;
 }
 
 .footer-content {

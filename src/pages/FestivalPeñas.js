@@ -1,20 +1,19 @@
 import React from 'react';
-import './FestivalPeñas.css'; 
+import Footer from '../components/Footer';
+import './FestivalPeñas.css';
 
 function FestivalPeñas() {
     return (
         <div className="festival-peñas">
-            <header className="festival-header">
-                <h1>Festival de Peñas</h1>
-            </header>
-            <section className="festival-content">
+
+                <h1 className="festival-title">Festival de Peñas</h1>
+            
+            <div className="festival-content">
                 <p>
-                    Bienvenido al Festival de Peñas, un evento único que reúne música, cultura y tradición en Villa María.
+                    Bienvenido al Festival de Peñas, el evento cultural más importante de Villa María. ¡No te lo pierdas!
                 </p>
-                <p>
-                    Próximamente encontrarás más detalles sobre fechas, artistas invitados y actividades destacadas. ¡Mantente atento!
-                </p>
-            </section>
+            </div>
+            <Footer /> {/* Footer siempre en el flujo, al final */}
         </div>
     );
 }
